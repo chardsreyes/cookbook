@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	
+	<meta name=viewport content="user-scalable=no,width=device-width" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	
+	
+</head> 
+<style>
+		
+			img {
+			max-width: 100%;
+			}
+			
+			#about {
+			text-align: justify;
+			font-size:13px;			
+			}
+			#paksiw {
+			font-size:13px;			
+			}
+			
+			#googleMap{
+			position: fixed;	
+				margin-left:35px;
+			}
+		</style>
+<body> 
+
+	<div data-role=page data-add-back-btn=true data-theme="b" data-icon="home">
+	
+		<div data-role="header" data-theme="b">      
+		  <a href='#' class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return true">Back</a><h1>Vegetables Recipes</h1><a href="index.html"  data-icon="home">Home</a>
+        </div>
+		<div>
+			<center><img src="logo/banner4.png" height="120" width="330"></center>
+		</div>
+		
+		<div data-role="content">
+		
+		<div data-role="collapsible-set" data-theme="d" data-content-theme="c">
+		
+			<ul data-role="listview" data-inset="true" data-dividertheme="b" >
+				<li data-role="list-divider" role="heading">Recipes</li>
+			</ul>
+		
+			<div data-role="collapsible" data-collapsed="true" data-iconpos=right>
+				<h3>Baked Acorn Squash</h3>
+				<img src="menu/11111.png">
+				<h3 align="center">American-Baked Acorn Squash Recipe</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+					<li>2 acorn squash</li>
+					<li>2 tablespoon freshly squeezed orange juice</li>
+					<li>1 tablespoons brown sugar</li>
+					<li>2 tablespoons unsalted butter</li>
+					<li>2 tablespoons maple syrup</li>
+					<li>salt and fresh ground black pepper to taste</li>
+
+
+
+
+			</h5>
+				<h3>Procedure:</h3>
+				<p id="about">
+					1. Preheat oven to 400 degrees F. 
+						</br></br>
+					2. Cut the acorn squash in 1/2 lengthwise, and scoop the seeds and strings out of the cavity. Carefully score the inside of each squash half with a sharp knife, making 1/8-inch deep cuts about 1/2-inch apart (refer to mouthwatering photo). Use a pastry brush to paint each half with the orange juice. Sprinkle generously with salt. Bake for 30 minutes. 
+						</br></br>
+					3. In a small saucepan, combine the brown sugar, butter, maple syrup and fresh ground black pepper. Bring to a boil, stir, and cook for one minute. Reserve. 
+						</br></br>
+					4. Remove the squash from the oven, and spoon off any liquid that has accumulated in the cavities. Brush the glaze evenly over each, and bake for another 40 minutes, or until tender and caramelized on the edges. Allow to sit for 15 minutes before serving, possibly with a bit more salt sprinkled over. 
+						</br></br>
+					5. For an extra nice glaze, baste the squash with the syrup that collects in the cavity a few times while it's baking.
+
+				
+				</p>
+			</div>
+		
+		
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Triple Garlic Mashed Potatoes</h3>
+				<img src="menu/22222.png">
+				<h3 align="center">American-Triple Garlic Mashed Potatoes Recipe]</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+						<li>3 pounds Yukon Gold potatoes, peeled and quartered (almost any potato will work)</li>
+						<li>4 cloves garlic, sliced thin</li>
+						<li>2 teaspoons salt, divided</li>
+						<li>4 tablespoons butter</li>
+						<li>3 cloves garlic, minced fine</li>
+						<li>1/2 cup milk</li>
+						<li>1 clove garlic, crushed very fine (with a garlic press, flat of a knife)</li>
+						<li>1/4 teaspoon white pepper</li>
+
+
+
+
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1. Put the potatoes and the sliced garlic in a saucepan and cover with cold water. Add 1 tsp of salt and bring to a boil. Reduce heat to medium and cook until the potatoes are tender, but not falling apart. Drain well in a strainer, and reserve. 
+					</br></br>
+				2. Put the saucepan back on med-low heat and add the butter and minced garlic. When the garlic starts to sizzle, cook for 1 minute, and turn off heat. Add the drained potatoes, milk, raw garlic, salt, and pepper. Mash until smooth. Serve hot.
+
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Fresh Sweet Corn Fritters</h3>
+					<img src="menu/33333.png">
+				<h3 align="center">American-Fresh Sweet Corn Fritters Recipe</h3>	
+				<p>Ingredients Needed:</p>
+				<h5>
+					
+					<li>2 large ears fresh sweet corn (or 1 packed cup of thawed, drained, frozen corn)</li>
+					<li>2 large eggs</li>
+					<li>1/4 cup whole milk</li>
+					<li>1/4 cup all-purpose flour</li>
+					<li>3 tablespoons yellow cornmeal</li>
+					<li>1 1/2 teaspoon sugar</li>
+					<li>1/2 teaspoon salt, or to taste</li>
+					<li>2 1/2 teaspoons baking powder</li>
+					<li>peanut oil for frying (may substitute canola)</li>
+
+
+
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1. Over a large bowl, using a sharp knife, carefully shave the corn kernels off the cob. With the back of the knife, scrap the milky juice from the cob into the bowl. Whisk the eggs and milk into the corn until thoroughly combined. In another bowl, combine the flour, cornmeal, sugar, salt, and baking powder. Pour into the bowl of the corn mixture, and stir with a spatula to form a thick batter. 
+					</br></br>
+				2. Pour oil about 3/4-inch deep into a heavy-duty skillet. Over med-high heat bring oil to 375°F. When oil is hot, drop rounded tablespoons of batter carefully into the oil. Don’t crowd, the fritters should not touch each other. Best done in two batches. Cook about 3 minutes on each side, until the corn fritters are golden brown. Drain on paper towels or wire rack. Salt if desired, and serve corn fritters immediately.
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Roasted Asparagus with Toasted Hazelnuts</h3>
+				<img src="menu/44444.png">
+				<h3 align="center">American-Roasted Asparagus with Toasted Hazelnuts</h3>
+				<p>Ingredients Needed:</p>
+					<h5>
+						<li>1 bunch asparagus, washed and bottoms trimmed</li>
+						<li>2 tbsp olive oil</li>
+						<li>salt and pepper to taste</li>
+						<li>1 tbsp butter</li>
+						<li>1/3 cup chopped hazelnuts</li>
+						<li>fresh lemon wedges to garnish (optional)</li>
+
+
+
+
+					</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1. Preheat oven to 450 degrees F.
+				</br></br>
+				2. Coat the asparagus with 1 tbsp of the olive oil, and salt and pepper to taste. Spread evenly on a baking sheet. Roast in the hot oven for about 10 minutes (depending on thickness), or until the asparagus spears are tender, but not soft.
+				</br></br>
+				3. While the asparagus is roasting, add the butter, hazelnuts, and other tablespoon of olive oil to a small pan. Toast the hazelnuts over low flame until golden-brown. Do not brown too much, or the hazelnuts will become bitter. When the asparagus is ready transfer to a serving plate and spoon over the hazelnut butter. Serve with lemon wedges if desired.
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+					<h3>Buttermilk Mashed Yams</h3>
+						<img src="menu/55555.png">
+					<h3 align="center">American-Buttermilk Mashed Yams Recipe</h3>
+						<p>Ingredients Needed:</p>
+					<h5>
+						<li>2 lbs yams, peeled and cut in quarters</li>
+						<li>1 cup buttermilk</li>
+						<li>1 tsp salt, or to taste</li>
+
+
+
+					</h5>
+					<h3>Procedure:</h3>
+				<p>
+					Boil the yams in salted water until just tender. Do not overcook, as the yams will absorb too much water. Drain well, and transfer back to the pot. Add the buttermilk, and salt; mash until smooth. Serve hot. May be made ahead and reheated in the microwave.
+				</p>
+			</div>
+		</div>
+	</div>
+			
+	<div data-role=footer id="foot" data-position="fixed" data-theme="b">
+			<h1>Gourmet Foods</h1> 
+  		</div>
+	
+</div>
+</body>
+</html> 

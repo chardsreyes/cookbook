@@ -1,0 +1,205 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	
+	<meta name=viewport content="user-scalable=no,width=device-width" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	
+	
+</head> 
+<style>
+		
+			img {
+			max-width: 100%;
+			}
+			
+			#about {
+			text-align: justify;
+			font-size:13px;			
+			}
+			#paksiw {
+			font-size:13px;			
+			}
+			
+			#googleMap{
+			position: fixed;	
+				margin-left:35px;
+			}
+		</style>
+<body> 
+
+	<div data-role=page data-add-back-btn=true data-theme="b" data-icon="home">
+	
+		<div data-role="header" data-theme="b">      
+		  <a href='#' class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return true">Back</a><h1>Turkey Recipes</h1><a href="index.html"  data-icon="home">Home</a>
+        </div>
+		<div>
+			<center><img src="logo/banner4.png" height="120" width="330"></center>
+		</div>
+		
+		<div data-role="content">
+		
+		<div data-role="collapsible-set" data-theme="d" data-content-theme="c">
+		
+			<ul data-role="listview" data-inset="true" data-dividertheme="b" >
+				<li data-role="list-divider" role="heading">Recipes</li>
+			</ul>
+		
+			<div data-role="collapsible" data-collapsed="true" data-iconpos=right>
+				<h3>Turkey with Ham Recipe</h3>
+				<img src="menu/turk1.png">
+				<h3 align="center">Brazilian-Syle Turkey with Ham Recipe</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+					<li>1 whole turkey (12 pounds)</li> 
+					<li>4-1/2 teaspoons salt </li>
+					<li>2 teaspoons pepper</li>
+					<li>3 garlic cloves, minced</li>
+					<li>1-1/2 cups white vinegar</li> 
+					<li>1 cup California Olive Ranch® Olive Oil</li> 
+					<li>4 medium tomatoes, seeded and chopped </li>
+					<li>4 medium green pepper, seeded and chopped </li>
+					<li>1/2 cup minced fresh parsley </li>
+					<li>2 pounds smoked ham, thinly sliced </li>
+
+
+
+			</h5>
+				<h3>Procedure:</h3>
+				<p id="about">
+						1.	Remove giblets from turkey and discard. Place a turkey-size oven roasting bag inside a second roasting bag; add turkey. Place in a roasting pan. Combine the salt, pepper and garlic; rub over turkey.   </br></br>
+						2.	In a large bowl, combine the vinegar, oil, tomatoes, peppers and parsley. Pour over turkey and into cavity. Squeeze out as much air as possible from bag; seal and turn to coat. Refrigerate for 12-24 hours, turning several times.   </br></br>
+						3.	Drain and discard marinade. Skewer turkey openings; tie drumsticks together. Prepare grill for indirect heat, using a drip pan. Using long-handled tongs, moisten a paper towel with cooking oil and lightly coat the grill rack.   </br></br>
+						4.	Place turkey over drip pan and grill, covered, over indirect medium heat for 2 to 2-1/2 hours or until a meat thermometer reads 180°, tenting turkey with foil after about 1 hour.   </br></br>
+						5.	Let stand for 20 minutes before slicing. Meanwhile, warm the ham. Layer turkey and ham slices on a serving platter. Yield: 12 servings plus leftovers. 
+
+				
+				</p>
+			</div>
+		
+		
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Christmas Turkey</h3>
+				<img src="menu/turk2.png">
+				<h3 align="center">Brazilian Christmas Turkey</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+						<li>1 (12 lb) turkey (or, I used a 8 to 9 lb. turkey breast - NOT a turkey roast, though) </li>
+						<li>2 cups light rum (to be traditional, use Brazilian Cachaca) </li>
+						<li>2 onions, diced </li>
+						<li>6 cloves garlic, chopped </li>
+						<li>4 ripe Tomatoes, diced </li>
+						<li>1/2 cup olive oil </li>
+						<li>2 bay leaves </li>
+						<li>1 cup fresh lime juice </li>
+						<li>1/4 cup grated lime zest (just the green part) </li>
+						<li>2 cups water </li>
+						<li>1/2 cup chopped green onion </li>
+						<li>1 cup chopped parsley </li>
+
+
+
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1. Place turkey (or turkey breast) and all other ingredients in a large oven roasting bag, seal tightly with no air and place in a large dish in the refrigerator to marinate overnight (actually, mine marinated for nearly 2 days--).</br></br> 
+				2. When ready to cook, preheat oven to 425 degrees F. </br></br>
+				3. Remove turkey from marinade and place in a large roasting pan. </br></br>
+				4. In a strainer, drain liquid from the vegetables and seasonings; place vegetables and seasonings in the turkey cavity. </br></br>
+				5. Roast, covered with foil, for 30 minutes at 425 degrees; reduce oven temperature to 350 degrees and roast about another 3 to 3-1/2 hours (for turkey breast; for a whole turkey, adjust your time accordingly), basting periodically. </br></br>
+				6. Uncover the last 30 minutes or so for browning of the turkey. </br></br>
+				7. Makes the most excellent turkey sandwiches.
+
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Marinated Turkey</h3>
+					<img src="menu/turk3.png">
+				<h3 align="center">Brazilian Marinated Turkey for Two Recipe</h3>	
+				<p>Ingredients Needed:</p>
+				<h5>
+					
+					<li>2 turkey breast tenderloins (about 1 pound) </li>
+					<li>1-1/2 cups pineapple juice </li>
+					<li>1/3 cup sugar </li>
+					<li>3/4 teaspoon salt </li>
+					<li>1/8 teaspoon pepper </li>
+					<li>1/8 teaspoon ground ginger </li>
+					<li>Dash ground cloves </li>
+					<li>Dash garlic powder </li>
+
+
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1.	Place the turkey in a shallow glass dish. Combine remaining ingredients; mix well. Set aside 1/3 cup; cover and refrigerate. Pour the remaining marinade over turkey. Cover and refrigerate 4 hours or overnight. </br></br>
+				2.	Drain and discard marinade. Place turkey in an ungreased 11-in. x 7-in. baking dish. Pour reserved marinade over turkey. Cover and bake at 350° for 30 minutes. Uncover and bake 20-30 minutes longer or until no longer pink, basting twice. Slice and serve immediately. Yield: 2 servings
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Turkey with Cranberry Sauce</h3>
+				<img src="menu/turk4.png">
+				<h3 align="center">American-Turkey with Cranberry Sauce Recipe</h3>
+				<p>Ingredients Needed:</p>
+					<h5>
+						<li>2 turkey breast tenderloins (1 to 1-1/2 pounds) </li>
+						<li>1/2 teaspoon poultry seasoning </li>
+						<li>1 tablespoon vegetable oil </li>
+						<li>1 tablespoon butter </li>
+						<li>1 cup whole-berry cranberry sauce </li>
+						<li>3 tablespoons apple jelly </li>
+						<li>3/4 teaspoon Dijon mustard </li>
+						<li>1/4 teaspoon ground allspice </li>
+
+
+
+					</h5>
+				<h3>Procedure:</h3>
+				<p>
+					Cut tenderloins widthwise in half. Slice each half lengthwise in half, but do not cut all the way through. Open and flatten each piece. Sprinkle both sides with poultry seasoning. In a large skillet over medium-high heat, cook turkey in oil and butter for 3-4 minutes on each side. Reduce heat to medium-low; cover and cook for 12-15 minutes or until juices run clear. Remove turkey to platter and keep warm. Add cranberry sauce, jelly, mustard and allspice to skillet; simmer for 2-3 minutes. Spoon over turkey. Yield: 4 servings. 
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+					<h3>Turkey Hero Recipe</h3>
+						<img src="menu/turk5.png">
+					<h3 align="center">American-Turkey Hero Recipe</h3>
+						<p>Ingredients Needed:</p>
+					<h5>
+						<li>1 package (3 ounces) cream cheese, softened </li>
+						<li>2 tablespoons ranch salad dressing </li>
+						<li>1 teaspoon poppy seeds </li>
+						<li>Pinch garlic powder </li>
+						<li>1 loaf (1 pound) French bread, split lengthwise </li>
+						<li>Shredded lettuce </li>
+						<li>3/4 pound thinly sliced cooked turkey </li>
+						<li>1/4 pound thinly sliced Swiss cheese </li>
+						<li>2 medium tomatoes, sliced </li>
+
+
+					</h5>
+					<h3>Procedure:</h3>
+				<p>
+					In a small bowl, beat the first four ingredients until smooth. Spread on both cut surfaces of bread. Layer lettuce, turkey, cheese and tomatoes on bottom half of bread. Top with the other half. Cut into serving-size pieces. Yield: 6 servings. 
+
+
+				</p>
+			</div>
+		</div>
+	</div>
+			
+	<div data-role=footer id="foot" data-position="fixed" data-theme="b">
+			<h1>Gourmet Foods</h1> 
+  		</div>
+	
+</div>
+</body>
+</html> 

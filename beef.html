@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	
+	<meta name=viewport content="user-scalable=no,width=device-width" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	
+	
+</head> 
+<style>
+		
+			img {
+			max-width: 100%;
+			}
+			
+			#about {
+			text-align: justify;
+			font-size:13px;			
+			}
+			#paksiw {
+			font-size:13px;			
+			}
+			
+			#googleMap{
+			position: fixed;	
+				margin-left:35px;
+			}
+		</style>
+<body> 
+
+	<div data-role=page data-add-back-btn=true data-theme="b" data-icon="home">
+	
+		<div data-role="header" data-theme="b">      
+		  <a href='#' class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return true">Back</a><h1>Beef Recipes</h1><a href="index.html"  data-icon="home">Home</a>
+        </div>
+		<div>
+		<center><img src="logo/banner4.png" height="120" width="330"></center>
+		</div>
+		
+		<div data-role="content">
+		
+		<div data-role="collapsible-set" data-theme="d" data-content-theme="c">
+		
+			<ul data-role="listview" data-inset="true" data-dividertheme="b" >
+				<li data-role="list-divider" role="heading">Recipes</li>
+			</ul>
+		
+			<div data-role="collapsible" data-collapsed="true" data-iconpos=right>
+				<h3>Grilled Skirt Steak</h3>
+				<img src="menu/111.png">
+				<h3 align="center">Argentina-Grilled Skirt Steak with Cilantro Chimichurri Sauce</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+					<li>1 pound skirt steak</li>
+					<li>1/2 teaspoon kosher salt</li>
+					<li>1/4 teaspoon black pepper</li>
+					<li>Zest of 1 lemon</li>
+					<li>2 garlic cloves, finely minced</li>
+					<li>1 pinch red pepper flakes</li>
+					<li>1 tablespoon olive oil</li>
+
+					For the Chimichurri Sauce
+
+
+					<li>2 garlic cloves, finely minced</li>
+					<li>1/2 onion, finely minced</li>
+					<li>Juice of 1 lemon</li>
+					<li>1 bunch cilantro, leaves removed from stems, about 1 cup packed leaves</li>
+					<li>1/2 cup olive oil</li>
+					<li>2 tablespoons sherry vinegar</li>
+					<li>1/8 teaspoon red pepper flakes</li>
+					<li>1/2 teaspoon kosher salt</li>
+					<li>1/4 teaspoon black pepper</li>
+
+			</h5>
+				<h3>Procedure:</h3>
+				<p id="about">
+				1.	Season skirt steak with salt and pepper and place in a large resealable plastic bag. Add in the lemon zest, garlic, red pepper flakes, and olive oil. Seal the plastic bag and massage ingredients into skirt steak to incorporate evenly. Refrigerate for at least 1 hour or up to 24 hours.</br></br>
+				2.	Remove skirt steak from refrigerator, take meat out of the plastic bag and place on a plate. Remove any large chunks of garlic. Let skirt steak sit at room temperature for 15 minutes.</br></br>
+				3.	Meanwhile, make the chimichurri sauce. In a medium size bowl, whisk together the garlic, onion, lemon juice, cilantro, olive oil, sherry vinegar, and red pepper flakes. Season with salt and pepper.</br></br>
+				4.	Place skirt steak on a hot grill and cook for about 5 minutes until meat releases easily from the grill. Flip meat over and cook for another 5 minutes for medium rare. Place meat on a clean plate and let it rest for 15 minutes before slicing. Slice across the grain into thin strips. To serve, spoon chimichurri sauce over meat.
+
+				</p>
+			</div>
+		
+		
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Style Spiced Meatballs</h3>
+				<img src="menu/222.png">
+				<h3 align="center">Lebanese-Style Spiced Meatballs</h3>
+				<p>Ingredients Needed:</p>
+				<h5>
+						<li>1 lb ground beef (grass fed, lamb)</li>
+						<li>21/2 garlic cloves (peeled and finely minced)</li>
+						<li>1 tsp salt (reduced from 2 teaspoons)</li>
+						<li>1/2 tsp black pepper (fresh ground)</li>
+						<li>1/2 cup fresh parsley (minced)</li>
+						<li>1/3 cup dried apricot (cut up into very small pieces)</li>
+						<li>1/3 cup raisins</li>
+						<li>1/3 cup toasted pine nuts</li>
+						<li>1/4 cup plain yogurt</li>
+						<li>plain yogurt (tahini)</li>
+
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+					1.Combine meatballs mixture in a large mixing bowl and stir *just* until combined.</br></br>
+					2.Cover and refrigerate until mixture is firm. (I do this first thing in the morning.).</br></br>
+					3.Preheat oven to 350 degrees.</br></br>
+					4.Form into 1 1/2" balls and place on a parchment-lined baking sheet.</br></br>
+					5.Bake about 20 minutes or until browned and no longer pink in the center.</br></br>
+					6.If desired, serve with plain yogurt that has been drained or tahini.</br></br>
+					7.Delicious served over quinoa accompanied by a fresh salad with seasonal ingredients or steamed veggies in the cooler months.</br></br>
+					8.Yield: 18-22 meatballs.
+
+
+			
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Spinach, Beef & Rice</h3>
+					<img src="menu/333.png">
+				<h3 align="center">Lebanese-Spinach, Beef & Rice</h3>	
+				<p>Ingredients Needed:</p>
+				<h5>
+					<li>olive oil</li>
+					<li>1 diced onion</li>
+					<li>1 lb ground beef</li>
+					<li>11/2 tsps allspice</li>
+					<li>1/2 tsp ground cinnamon</li>
+					<li>salt</li>
+					<li>30 ozs water (frozen chopped spinach drained and squeeze out, spinach)</li>
+					<li>water</li>
+					<li>3 garlic cloves (minced)</li>
+					<li>1 bunch fresh cilantro (chopped)</li>
+					<li>lemon juice</li>
+					<li>rice (cooked)</li>
+
+				</h5>
+				<h3>Procedure:</h3>
+				<p>
+				1.In a cooking pot, add olive oil and heat for a moment. Add onions and sauté. Add ground beef and cook until beef is brown. Add allspice, cinnamon, and salt. Mix. Add spinach and sauté with meat for a moment. Once it’s all mixed well together, add water to the pot , just enough to cover the spinach Cover and let the spinach meat mixure boil and then turn it down to medium heat and let it simmer/boil for a good 30 minutes. Meanwhile, get a sauté pan and add some olive oil, the garlic, and the chopped cilantro and sauté’ that mixture together. Add cilantro/garlic mixture to the spinach (after the spinach has cooked for 30 minutes). Cover and let it simmer for about 15 more minutes. Serve with rice and squeeze lemon juice on top!</br></br>
+				2.Using frozen chopped spinach works better than fresh spinach. It does not turn out the same if you use fresh. The frozen chopped is much better. I have tried both. Trust me!</br></br>
+				3.Be sure when adding water to the pot that you don’t add too much. You want just enough to cover the spinach. The spinach will release some water too!</br></br>
+				4.Squeezing the lemon on top of the spinach dish when it’s being served is the most important part of the dish! Don’t forget to do that, or you’ll miss out on the awesome taste of this dish!
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+				<h3>Style Skirt Steak</h3>
+				<img src="menu/444.png">
+				<h3 align="center">Brazilian-Style Skirt Steak</h3>
+				<p>Ingredients Needed:</p>
+					<h5>
+						<li>whole skirt steak</li>
+						<li>sea salt (enough to coat steak) or kosher salt (enough to coat steak)</li>
+
+					</h5>
+				<h3>Procedure:</h3>
+				<p>
+					1.Coat both sides of the steak in sea salt or kosher salt, either would be fine.</br></br>
+					2.Pan-sear both sides of the steak, about 2-3 minutes on each side over medium-high heat.</br></br>
+					3.Remove from pan and completely wrap steak in foil.</br></br>
+					4.Grill or bake at 350 for about 30-40 minutes for a well done steak.</br></br>
+					5.I usually serve this with a sea-salted potato (cover potato in sea salt, wrap in foil, bake for 1 hour on 350 degrees).
+
+				</p>
+			</div>
+			
+			<div data-role="collapsible" data-iconpos=right>
+					<h3>Baked Brazilian Beef</h3>
+						<img src="menu/555.png">
+					<h3 align="center">Brazilian-Baked Brazilian Beef</h3>
+						<p>Ingredients Needed:</p>
+					<h5>
+						<li>13/4 lbs tip roast (sirloin)</li>
+						<li>1/2 tsp garlic powder</li>
+						<li>2 onions (sliced)</li>
+						<li>1/2 cup beef broth</li>
+						<li>1/2 cup coffee (strong black)</li>
+						<li>1 tsp salt</li>
+						<li>1/4 tsp oregano</li>
+						<li>1/4 tsp rosemary</li>
+						<li>1/4 tsp pepper</li>
+						<li>2 tbsps flour</li>
+						<li>1 tsp margarine</li>
+
+					</h5>
+					<h3>Procedure:</h3>
+				<p>
+					1.Cut sirloin tip into 1-inch cubes.</br></br>
+					2.Place in casserole with garlic powder, onions, liquids and seasonings.</br></br>
+					3.Cover and bake at 350° for 1 hour until beef is tender.</br></br>
+					4.Thicken gravy with the blended flour and margarine.</br></br>
+					5.Serve with mashed potatoes, noodles, or rice.
+
+
+				</p>
+			</div>
+		</div>
+	</div>
+			
+	<div data-role=footer id="foot" data-position="fixed" data-theme="b">
+			<h1>Gourmet Foods</h1> 
+  		</div>
+	
+</div>
+</body>
+</html> 
